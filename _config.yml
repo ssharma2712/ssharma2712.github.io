@@ -1,0 +1,11 @@
+title: Sudip Sharma
+email: sudip.sharma.temple@gmail.com
+description: Personal website of Sudip Sharma, PhD
+url: https://ssharma2712.github.io
+baseurl: ""
+permalink: /blog/:year/:month/:day/:title/
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
