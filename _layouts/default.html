@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<header class="site-header"><div class="container header-inner">
+  <a class="site-title" href="{{ '/' | relative_url }}">Sudip Sharma</a>
+  <nav aria-label="Main navigation">
+    <a href="{{ '/' | relative_url }}">Home</a><a href="{{ '/about/' | relative_url }}">About</a><a href="{{ '/research/' | relative_url }}">Research</a><a href="{{ '/publications/' | relative_url }}">Publications</a><a href="{{ '/blog/' | relative_url }}">Blog</a><a href="{{ '/contact/' | relative_url }}">Contact</a>
+  </nav>
+</div></header>
+<main class="container" id="content">{{ content }}</main>
+<footer class="site-footer"><div class="container"><span>© {{ 'now' | date: '%Y' }} Sudip Sharma</span><span><a href="mailto:{{ site.email }}">Email</a> · <a href="https://github.com/ssharma2712">GitHub</a> · <a href="{{ '/CV_Sharma_Sudip.pdf' | relative_url }}">CV</a></span></div></footer>
+</body></html>
