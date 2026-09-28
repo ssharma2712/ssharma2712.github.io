@@ -1,16 +1,9 @@
-# ssharma.github.io
+# Sudip Sharma academic website
 
-<details>
-<summary><strong>Command-Line Options</strong></summary>
+A static, responsive academic profile designed for GitHub Pages. The entry point is `index.html`; no build step is required.
 
-- [`--lambda1`](#--lambda1)
-- [`--lambda2`](#--lambda2)
-- [`--method`](#--method)
-- [`--subsamples`](#--subsamples)
+## Publish
 
-- <p align="center">
-  <img src="images/model_grid.png" alt="Model Grid" width="500"/>
-</p>
+Upload these files to the `ssharma2712.github.io` repository on its default branch. In GitHub **Settings → Pages**, choose **Deploy from a branch**, the default branch, and `/ (root)`. The site will appear at https://ssharma2712.github.io/ after GitHub Pages finishes deploying.
 
-</details>
-
+To update the CV, replace `CV_Sharma_Sudip.pdf` with a new PDF using the same filename. Edit publication links and text in `index.html`.
